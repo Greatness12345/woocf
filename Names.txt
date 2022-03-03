@@ -1,0 +1,78 @@
+ WoocommerceCustomFeatures
+ 
+ Woocommerce Custom Features
+ 
+ woocommerce-custom-features
+ 
+ woocf_
+ 
+ woocf_custom_fees
+ woocf_custom_payment
+ woocf_custom_shipping
+ woocf_sms_notifier
+ 
+ woocommercecustomfeatures
+ 
+ Controller
+ 
+ 
+ 
+ Menu/
+ 
+ 1. Woocommerce Custom Fees
+ 2. Woocommerce Custom Shipping Method
+ 3. WooCommerce Custom Payment Gateway
+ 4. Woocommerce SMS Notifier----https://www.youtube.com/watch?v=lZc2Ebesl0o
+ 
+ 
+ CustomFeesController
+ CustomPaymentController
+ CustomShippingController
+ SmsNotifierController
+ 
+ Custom Fees
+ Custom Payment
+ Custom Shipping
+ Sms Notifier
+ 
+ custom-fees
+ custom-payment
+ custom-shipping
+ sms-notifier
+ 
+ 
+ customFees
+ customPayment
+ customShipping
+ smsNotifier
+ 
+ custom_fees
+ custom_payment
+ custom_shipping
+ sms_notifier
+ 
+custom_fees_manager' => 'Activate Custom Fees Manager',
+'custom_payment_manager' => 'Activate Custom Payment Manager',
+'custom_shipping' => 'Activate Custom Shipping',
+'sms_notifier' => 'Activate Sms Notifier Manager',
+ 
+ 
+			
+https://codeytek.com/setting-up-webpack-and-babel-for-your-wordpress-theme/
+npm i webpack webpack-cli @babel/core @babel/preset-env @babel/preset-react babel-loader clean-webpack-plugin css-loader file-loader mini-css-extract-plugin optimize-css-assets-webpack-plugin cssnano style-loader uglifyjs-webpack-plugin cross-env -D
+
+Process in geting webpack to work. Run the following
+
+1. npm i webpack webpack-cli @babel/core @babel/preset-env @babel/preset-react babel-loader clean-webpack-plugin css-loader file-loader mini-css-extract-plugin optimize-css-assets-webpack-plugin cssnano style-loader uglifyjs-webpack-plugin cross-env -D
+
+
+
+2. Error: HookWebpackError: Not supported when copy-webpack-plugin is used on Windows
+--i.Upgrade your node-- npm install node@12.20.0 -g  ii.Reduce the version of copy-webpack-plugin-npm install copy-webpack-plugin@9 -D
+
+3. npm install @wordpress/dependency-extraction-webpack-plugin --save-dev
+
+4. 
+
+
+
